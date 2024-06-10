@@ -1,9 +1,10 @@
 
-nome = input("Digite o nome do herói: ")
-xpHero = int(input("Digite seu nivel de Xp"))
+let nome = "Cedilha"
+let xpHero = 1000
+let nivel
 
 if (xpHero >= 1000){
-    xpHero = "Ferro";
+    nivel = "Ferro";
 } else if (xpHero >= 1001 && xpHero <=2000){
     nivel = "Bronze";
 } else if (xpHero >= 2001 && xpHero <=5000){
@@ -21,4 +22,4 @@ if (xpHero >= 1000){
 }
 
 
-alert('O Herói de nome ${ nome } está no nível de ${ nivel }'); 
+console.log('O Herói de nome' + nome,  'está no nível ' + nivel )
